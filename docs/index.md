@@ -2,3 +2,4 @@ Hi! I'm Kajal, a Stamps Scholar at the University of Illinois at Urbana-Champaig
 
 > **Research interests:** Computers and education, data systems, artificial intelligence, interactive computing
 
+Resume:
