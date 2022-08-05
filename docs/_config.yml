@@ -1,3 +1,14 @@
 theme: jekyll-theme-cayman
+first_name: Kajal
+last_name: Patel
+email: kajal@kajalpatel.info
+
 title: Kajal Patel
 description: Stamps Scholar at the University of Illinois
+
+lang: en
+
+navbar_fixed: true
+footer_fixed: true
+
+max_width: 800px
