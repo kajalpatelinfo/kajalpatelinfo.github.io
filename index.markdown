@@ -14,3 +14,6 @@ Hello! I'm Kajal, a Stamps Scholar at the University of Illinois at Urbana-Champ
 
 ## Work Experience
 - **Epic Media Inc.:** *Lead Data Analyst and Website Design Intern*
+
+## Leadership and Community Service Experience
+- **Mundelein Tool Library:** *Co-Founder and Webmaster*
