@@ -350,7 +350,7 @@ a:hover { text-decoration: underline; }
 }
 /* LOGO */
 .logo {
- font-size: 32px;
+ font-size: 18px;
 }
 /* NAVBAR MENU */
 .menu {
@@ -371,8 +371,8 @@ a:hover { text-decoration: underline; }
  position: relative; 
 }
 .dropdown {
- background-color: rgb(107, 33, 114);
- padding: 1em 0;
+ background-color: transparent;
+ /* padding: 1em 0; */
  position: absolute; /*WITH RESPECT TO PARENT*/
  display: none;
  border-radius: 8px;
@@ -409,7 +409,7 @@ input[type=checkbox]{
  .menu { 
   display:none;
   position: absolute;
-  background-color:transparent;
+  background-color:white;
   right: 0;
   left: 0;
   text-align: center;
