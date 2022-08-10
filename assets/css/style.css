@@ -341,7 +341,7 @@ a:hover { text-decoration: underline; }
  display: flex;
  align-items: center;
  justify-content: space-between;
- padding: 20px;
+ padding-inline-start: 20px;
  background-color: transparent;
  color: #606c71;
 }
@@ -372,7 +372,7 @@ a:hover { text-decoration: underline; }
  position: relative; 
 }
 .dropdown {
- background-color: rgb(110,55,135);
+ background-color: white;
  padding: 1em 0;
  position: absolute; /*WITH RESPECT TO PARENT*/
  display: none;
@@ -388,7 +388,7 @@ a:hover { text-decoration: underline; }
  text-align: center;
 }
 .dropdown li:hover {
- background-color: rgb(110,55,135);
+ background-color: rgb(120, 116, 121);
 }
 .services:hover .dropdown {
  display: block;
@@ -436,6 +436,6 @@ input[type=checkbox]{
   transform: translateX(35%);
  }
  .dropdown li:hover {
-  background-color: rgb(110,55,135);
+  background-color: rgb(120, 116, 121);
  }
  }
