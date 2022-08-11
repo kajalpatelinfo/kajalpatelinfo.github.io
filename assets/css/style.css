@@ -322,6 +322,7 @@ a:hover { text-decoration: underline; }
 
 .site-footer-credits { color: #819198; }
 
+/** NAV BAR **/
 /* UTILITIES */
 * {
   margin: 0;
@@ -338,7 +339,7 @@ a:hover { text-decoration: underline; }
 
 /* NAVBAR STYLING STARTS */
 .navbar {
- display: flex;
+ display: block;
  align-items: center;
  justify-content: space-between;
  padding: 20px;
@@ -355,7 +356,7 @@ a:hover { text-decoration: underline; }
 }
 /* NAVBAR MENU */
 .menu {
- display: flex;
+ display: block;
  gap: 1em;
  font-size: 18px;
 }
@@ -408,7 +409,7 @@ input[type=checkbox]{
  /* APPLYING MEDIA QUERIES */
  @media (max-width: 768px) {
  .menu { 
-  display:none;
+  display: none;
   position: absolute;
   background-color:white;
   right: 0;
@@ -436,7 +437,6 @@ input[type=checkbox]{
   transform: translateX(35%);
  }
  .dropdown li:hover {
-  color: white;
   background-color: #a1a1a1;
  }
  }
