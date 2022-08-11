@@ -339,7 +339,7 @@ a:hover { text-decoration: underline; }
 
 /* NAVBAR STYLING STARTS */
 .navbar {
- display: block;
+ display: flex;
  align-items: center;
  justify-content: space-between;
  padding: 20px;
