@@ -323,12 +323,14 @@ a:hover { text-decoration: underline; }
 .site-footer-credits { color: #819198; }
 
 /* NAV BAR */
+/*
 header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
 }
+*/
 
 .logo {
   cursor: pointer;
