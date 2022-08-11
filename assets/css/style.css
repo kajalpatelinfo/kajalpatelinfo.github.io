@@ -328,7 +328,7 @@ a:hover { text-decoration: underline; }
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 10px 10%;
+  padding: 5px 10%;
   color: #606c71;
 }
 
@@ -364,10 +364,10 @@ button {
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
-  color: #606c71;
+  color: white;
 }
 
 button:hover {
   background-color: rgb(181, 163, 189);
-  color: #606c71;
+  color: rgb(110,55,135);
 }
