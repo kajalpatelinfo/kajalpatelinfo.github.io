@@ -328,7 +328,7 @@ a:hover { text-decoration: underline; }
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 20px 10%;
+  padding: 10px 10%;
   color: #606c71;
 }
 
@@ -339,11 +339,13 @@ a:hover { text-decoration: underline; }
 
 .nav_links {
   list-syle: none;
+  color: #606c71;
 }
 
 .nav_links li {
   display: inline-block;
   padding: 0px 20px;
+  color: #606c71;
 }
 
 .nav_links li a {
@@ -362,8 +364,10 @@ button {
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  color: #606c71;
 }
 
 button:hover {
-  background-color: rgba(110,55,135);
+  background-color: rgb(181, 163, 189);
+  color: #606c71;
 }
