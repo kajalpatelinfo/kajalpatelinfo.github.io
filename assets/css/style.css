@@ -328,7 +328,8 @@ a:hover { text-decoration: underline; }
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 30px 10%;
+  padding: 20px 10%;
+  color: #606c71;
 }
 
 .logo {
@@ -350,13 +351,13 @@ a:hover { text-decoration: underline; }
 }
 
 .nav_links li a:hover {
-  color: #0088a9;
+  color: rgb(110,55,135);
 }
 
 button {
   margin-left: 20px;
   padding: 9px 25px;
-  background-color: rgba(0,136,169,1);
+  background-color: rgba(110,55,135,1);
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -364,5 +365,5 @@ button {
 }
 
 button:hover {
-  background-color: rga(0,136,169,0.8);
+  background-color: rgba(110,55,135);
 }
