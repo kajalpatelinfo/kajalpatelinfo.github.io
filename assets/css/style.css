@@ -328,7 +328,7 @@ a:hover { text-decoration: underline; }
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 5px 10%;
+  padding: 1px 10%;
   color: #606c71;
 }
 
@@ -338,7 +338,7 @@ a:hover { text-decoration: underline; }
 }
 
 .nav_links {
-  list-syle: none;
+  list-style: none;
   color: #606c71;
 }
 
@@ -369,5 +369,6 @@ button {
 
 button:hover {
   background-color: rgb(181, 163, 189);
+  font-style: bold;
   color: rgb(110,55,135);
 }
