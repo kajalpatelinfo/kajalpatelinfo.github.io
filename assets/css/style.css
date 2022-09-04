@@ -356,19 +356,6 @@ a:hover { text-decoration: underline; }
   color: rgb(110,55,135);
 }
 
-/*
-button {
-  margin-left: 20px;
-  padding: 9px 25px;
-  background-color: rgba(110,55,135,1);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  color: white;
-}
-*/
-
 button {
   margin-left: 20px;
   padding: 12px 25px;
