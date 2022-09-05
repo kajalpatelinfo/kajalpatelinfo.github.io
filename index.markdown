@@ -8,10 +8,6 @@ kramdown:
     parse_block_html: true
 ---
 
-<div>
-<img src="/profile_pic.jpg" style="border-radius:50%; height:250px; width:250px; float:center" alt="Picture of me">
-</div>
-
 Hello! I'm Kajal, a Stamps Scholar at the University of Illinois at Urbana-Champaign studying Computer Science in the Grainger College of Engineering. I want to use computer science for social good, so I pursue computational areas that place an emphasis on spreading equity and accessiblity.
 
 > **Research interests:** Computers and education, data systems, artificial intelligence, interactive computing
