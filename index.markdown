@@ -9,7 +9,7 @@ kramdown:
 ---
 
 <div>
-<img src="/profile_pic.jpg" style="border-radius:50%" alt="Picture of me">
+<img src="/profile_pic.jpg" style="border-radius:50%; height:50px; width:50px" alt="Picture of me">
 </div>
 
 Hello! I'm Kajal, a Stamps Scholar at the University of Illinois at Urbana-Champaign studying Computer Science in the Grainger College of Engineering. I want to use computer science for social good, so I pursue computational areas that place an emphasis on spreading equity and accessiblity.
