@@ -16,7 +16,7 @@ ___
         <i>GPA: 4.00/4.00</i>
         <br /><i>Graduating May 2026</i>
     </span>
-    <br /> Bachelor of Science in Computer Science, <b>Stamps Scholar</b>
+    <br /> Bachelor of Science in Computer Science, <b style="font-color:rgb(77, 101, 28)">Stamps Scholar</b>
 </p>
 
 <p style="text-align:left; margin">
