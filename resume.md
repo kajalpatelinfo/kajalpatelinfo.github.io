@@ -8,6 +8,7 @@ kramdown:
 
 To view my resume as a PDF, please click [**here**](https://drive.google.com/file/d/1NgaEg8yi5jFnYe_6F993KQjCZDz61Ctp/view?usp=sharing).
 
+___
 ## Education
 <p style="text-align:left;">
     <b>University of Illinois at Urbana-Champaign</b>
@@ -27,11 +28,13 @@ To view my resume as a PDF, please click [**here**](https://drive.google.com/fil
     <br />Valedictorian
 </p>
 
+---
 ## Skills
 ***Technical*** &ensp;Python, Java, JavaScript, SQL, HTML/CSS, JSON, Bash, Git, Numpy, Matplotlib, Pandas, Pytorch, Microsoft Access, Microsoft Suite, Google Suite
 
 ***Soft*** &ensp;Fluent in English, Gujarati, and Hindi; classroom proficiency in Spanish; strong team player, eager to learn, self-motivated, active listener and contributor
 
+---
 ## Projects
 <p style="text-align:left;">
     <b>Using Supervised Machine Learning to Increase Community Safety</b>
@@ -70,6 +73,7 @@ To view my resume as a PDF, please click [**here**](https://drive.google.com/fil
   
 - Crowd-sourced data by having 100+ people play and train the machine to hone data with the end goal of consistent machine wins.
 
+---
 ## Work & Research Experience
 <p style="text-align:left;">
     <b>Analysis of Academic Testing Methods and Intrinsic Student Motivation</b>
@@ -101,6 +105,7 @@ To view my resume as a PDF, please click [**here**](https://drive.google.com/fil
   
 - Oversaw development and integration of ideas in response to the analytics to continuously improve user retention rates, increasing profit 200%+.
 
+---
 ## On-Campus Involvement
 <p style="text-align:left;">
     <b>Girls Who Code</b>
@@ -115,11 +120,14 @@ To view my resume as a PDF, please click [**here**](https://drive.google.com/fil
 
 - Pairing with Slalom Consulting to introduce members to women in various sectors of computer science, ranging from DevOps to data analytics to information security.
 
-**Women in Computer Science** &ensp; *Explorations Committee: Technical Resources Member*
-**She's The First** &ensp; *Engagement Committee Member*
-**Association of Computing Machinery** &ensp; *SIGAIDA, SIGEcom, SIGNLL, SIGMusic Paid Member*
-**Open-Source** &ensp; *Member*
+<p>
+<b>Women in Computer Science</b> &ensp; <i>Explorations Committee: Technical Resources Member</i>
+<br /> <b>She's The First</b> &ensp; <i>Engagement Committee Member</i>
+<br /> <b>Association of Computing Machinery</b> &ensp; <i>SIGAIDA, SIGEcom, SIGNLL, SIGMusic Paid Member</i>
+<br /> <b>Open-Source</b> &ensp; <i>Member</i>
+</p>
 
+---
 ## Leadership & Community Service Experience
 <p style="text-align:left;">
     <b>Jefferson Middle School Outreach</b>
@@ -162,6 +170,7 @@ To view my resume as a PDF, please click [**here**](https://drive.google.com/fil
   
 - Led teams during competitions in sectors such as cybersecurity and data science and hackathons, where teams were given difficult programming challenges to complete in a fixed time.
 
+---
 ## Honors & Awards
 <p style="text-align:left;">
     <b>Stamps Scholar</b>
