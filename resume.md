@@ -175,7 +175,7 @@ ___
 <p style="text-align:left;">
     <b>Stamps Scholar</b>
     <span style="float:right; text-align: right;">
-        <i>Awarded April 2022</i>]
+        <i>Awarded April 2022</i>
     </span>
 </p>
 
