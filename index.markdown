@@ -14,4 +14,4 @@ Hello! I'm Kajal, a Stamps Scholar at the University of Illinois at Urbana-Champ
 
 ---
 ## Current Work
-Currently, I'm working as a student researcher under Dr. Geoffrey Herman to investigate the differences of various academic testing methods on education and learning retention for college-aged students, with a particular emphasis on the effects of intrinsic motivation on student performance.
+This fall, I'm working as a student researcher under Dr. Geoffrey Herman to investigate the differences of various academic testing methods on education and learning retention for college-aged students, with a particular emphasis on the effects of intrinsic motivation on student performance.
