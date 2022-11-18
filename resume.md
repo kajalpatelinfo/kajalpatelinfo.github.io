@@ -19,7 +19,7 @@ ___
     <br /> Bachelor of Science in Computer Science, <b style="font-color:rgb(77, 101, 28)">Stamps Scholar</b>
 </p>
 
-<p style="text-align:left; margin">
+<p style="text-align:left;">
     <b>Mundelein High School</b>
     <span style="float:right; text-align: right;">
         <i>GPA: 4.64/4.00</i>

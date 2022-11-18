@@ -10,8 +10,8 @@ kramdown:
 
 Hello! I'm Kajal, a Stamps Scholar at the University of Illinois at Urbana-Champaign studying Computer Science in the Grainger College of Engineering. I want to use computer science for social good, so I pursue computational areas that place an emphasis on spreading equity and accessiblity.
 
-> **Research interests:** Computers and education, artificial intelligence and machine learning, data and information systems
+> **Research interests:** Data analytics and science, artificial intelligence and machine learning, computers and education, algorithms and theory
 
 ---
 ## Current Work
-This fall, I'm working as a student researcher under Dr. Geoffrey Herman to investigate the differences of various academic testing methods on education and learning retention for college-aged students, with a particular emphasis on the effects of intrinsic motivation on student performance.
+This year, I'm working as a student researcher under Dr. Geoffrey Herman to investigate the differences of various academic testing methods on education and learning retention for college-aged students, with a particular emphasis on the effects of intrinsic motivation on student performance.
