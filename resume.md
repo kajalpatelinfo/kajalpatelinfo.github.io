@@ -16,7 +16,7 @@ ___
         <i>GPA: 4.00/4.00</i>
         <br /><i>Graduating May 2026</i>
     </span>
-    <br /> Bachelor of Science in Computer Science, <b style="font-color:rgb(77, 101, 28)">Stamps Scholar</b>
+    <br /> Bachelor of Science in Computer Science, Minor in Statistics, Minor in Psychology, <b style="font-color:rgb(77, 101, 28)">Stamps Scholar</b>
 </p>
 
 <p style="text-align:left;">
@@ -30,12 +30,25 @@ ___
 
 ---
 ## Skills
-***Technical*** &ensp;Python, Java, JavaScript, SQL, HTML/CSS, JSON, Bash, Git, Numpy, Matplotlib, Pandas, Pytorch, Microsoft Access, Microsoft Suite, Google Suite
+***Technical*** &ensp;Python, Java, JavaScript, SQL, R, C++, HTML/CSS, JSON, Bash, Git, Numpy, Matplotlib, Pandas, Scipy, Microsoft Access, Microsoft Suite, Google Suite
 
 ***Soft*** &ensp;Fluent in English, Gujarati, and Hindi; classroom proficiency in Spanish; strong team player, eager to learn, self-motivated, active listener and contributor
 
 ---
 ## Projects
+<p style="text-align:left;">
+    <b>Pulse 2023 (Electrical and Computer Engineering Conference)</b>
+    <span style="float:right; text-align: right;">
+        <i>Urbana-Champaign, IL</i>
+        <br /><i>September 2022 - PRESENT</i>
+    </span>
+    <br /> Software Lead
+</p>
+
+- Working in a team of 4 to design and program a wearable smartwatch using Arduino Beetle with CAD and C++ to be revealed during the annual Engineering Open House.
+
+- Developing software in C++ using the AdaFruit and Arducam libraries to program an LCD screen for responsiveness, customizability, and accessibility.
+
 <p style="text-align:left;">
     <b>Using Supervised Machine Learning to Increase Community Safety</b>
     <span style="float:right; text-align: right;">
@@ -60,6 +73,8 @@ ___
 
 - Analyzing and visualizing data extracted from the social media platform Twitter to understand user behavior and conducting sentiment analysis queried by keyword.
 
+- Using the Twitter API to create NLP algorithms to simulate tweets based on criteria such as location, major current events, and time of day.
+
 <p style="text-align:left;">
     <b>Machine Educable Noughts and Crosses Engine (MENACE)</b>
     <span style="float:right; text-align: right;">
@@ -74,7 +89,7 @@ ___
 - Crowd-sourced data by having 100+ people play and train the machine to hone data with the end goal of consistent machine wins.
 
 ---
-## Work & Research Experience
+## Research & Work Experience
 <p style="text-align:left;">
     <b>Analysis of Academic Testing Methods and Intrinsic Student Motivation</b>
     <span style="float:right; text-align: right;">
@@ -86,9 +101,9 @@ ___
 
 - Working as a student researcher under Dr. Geoffrey Herman to investigate the differences of various academic testing methods on education and learning retention for college-aged students, researching the effects of intrinsic motivation on student performance.
   
-- Extracting and parsing JSON and CSV files using Pandas and using modular coding mechanisms to create both individual and all-encompassing functions to sort and analyze data.
+- Using Pandas and modular coding mechanisms to create both individual and encompassing functions to sort and analyze data, focusing on simulating student scores across semester to compare performance.
   
-- Expecting to publish research paper detailing results in late 2022 to early 2023.
+- Expecting to publish research paper detailing results in 2023.
 
 <p style="text-align:left;">
     <b>Epic Media Inc.</b>
@@ -108,9 +123,37 @@ ___
 ---
 ## On-Campus Involvement
 <p style="text-align:left;">
+    <b>Women in Computer Science</b>
+    <span style="float:right; text-align: right;">
+        <i>Urbana-Champaign, IL</i>
+        <br /><i>September 2022 - PRESENT</i>
+    </span>
+    <br /> Explorations Committee: Technical Resources Member
+</p>
+
+- Developing and leading various technical workshops in areas such as website development, machine learning, Python libraries, and iOS development to over 100 girls from high school to college-aged.
+
+- Created on-demand tutorials on Python Numpy, Pandas, and Matplotlib as part of DevAda, which is WCS’s flagship project cycle.
+
+<p style="text-align:left;">
+    <b>Computer Science Ambassadors / Research Scholars</b>
+    <span style="float:right; text-align: right;">
+        <i>Urbana-Champaign, IL</i>
+        <br /><i>July 2022 - PRESENT</i>
+    </span>
+    <br /> Ambassador
+</p>
+
+- Serving as a department-wide ambassador for undergraduate research and the promotion of minorities in computer science activities and education.
+
+- Moderator for the Computer Science Town Hall, in which top faculty answer questions from the undergraduate student population.
+
+- Presented research at the annual Trick-or-Research Fair, hosted by the Department of Computer Science, to over 300 students and faculty in various engineering and science disciplines.
+
+<p style="text-align:left;">
     <b>Girls Who Code</b>
     <span style="float:right; text-align: right;">
-        <i>Mundelein, IL; Urbana-Champaign, IL</i>
+        <i>Urbana-Champaign, IL; Mundelein, IL</i>
         <br /><i>February 2021 - PRESENT</i>
     </span>
     <br /> Lead Facilitator & Chapter Founder
@@ -121,7 +164,6 @@ ___
 - Pairing with Slalom Consulting to introduce members to women in various sectors of computer science, ranging from DevOps to data analytics to information security.
 
 <p>
-<b>Women in Computer Science</b> &ensp; <i>Explorations Committee: Technical Resources Member</i>
 <br /> <b>She's The First</b> &ensp; <i>Engagement Committee Member</i>
 <br /> <b>Association of Computing Machinery</b> &ensp; <i>SIGAIDA, SIGEcom, SIGNLL, SIGMusic Paid Member</i>
 <br /> <b>Open-Source</b> &ensp; <i>Member</i>
@@ -130,7 +172,7 @@ ___
 ---
 ## Leadership & Community Service Experience
 <p style="text-align:left;">
-    <b>Jefferson Middle School Outreach</b>
+    <b>Jefferson Middle School / Kenwood Elementary School Outreach</b>
     <span style="float:right; text-align: right;">
         <i>Champaign, IL</i>
         <br /><i>August 2022 - PRESENT</i>
