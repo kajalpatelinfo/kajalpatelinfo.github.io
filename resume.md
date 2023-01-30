@@ -6,7 +6,7 @@ kramdown:
     parse_block_html: true
 ---
 
-To view my resume as a PDF, please click [**here**](https://drive.google.com/file/d/1NgaEg8yi5jFnYe_6F993KQjCZDz61Ctp/view?usp=sharing).
+To view my resume as a PDF, please click [**here**](https://drive.google.com/file/d/1tuSvPc9NHFJgIConWYd1HX4alRhX1L1l/view?usp=sharing).
 
 ___
 ## Education
@@ -16,7 +16,7 @@ ___
         <i>GPA: 4.00/4.00</i>
         <br /><i>Graduating May 2026</i>
     </span>
-    <br /> Bachelor of Science in Computer Science, Minor in Statistics, Minor in Psychology, <b style="font-color:rgb(77, 101, 28)">Stamps Scholar</b>
+    <br /> Bachelor of Science in Computer Science, Minor in Statistics, Minor in Psychology, <span style="color:rgb(77, 101, 28)"><b>Stamps Scholar</b></span>
 </p>
 
 <p style="text-align:left;">
@@ -28,11 +28,13 @@ ___
     <br />Valedictorian
 </p>
 
+***Relevant Coursework*** &ensp;Introduction to Computer Science I & II, Discrete Structures, Database Management, Statistical Analysis, Linear Algebra w/ Computational Applications
+
 ---
 ## Skills
 ***Technical*** &ensp;Python, Java, JavaScript, SQL, R, C++, HTML/CSS, JSON, Bash, Git, Numpy, Matplotlib, Pandas, Scipy, Microsoft Access, Microsoft Suite, Google Suite
 
-***Soft*** &ensp;Fluent in English, Gujarati, and Hindi; classroom proficiency in Spanish; strong team player, eager to learn, self-motivated, active listener and contributor
+***Spoken Languages*** &ensp;English, Hindi, Spanish, Gujarati
 
 ---
 ## Projects
@@ -59,8 +61,6 @@ ___
 </p>
 
 - Leading the development of a machine learning algorithm using Pytorch that analyzes violent crime data in the Champaign-Urbana area to create the safest path between locations.
-
-- Will be pitching the completed project to the University of Illinois SafeWalks program to integrate it officially within the university’s infrastructure.
 
 <p style="text-align:left;">
     <b>Project Code: "Tweetalytics"</b>
@@ -121,7 +121,7 @@ ___
 - Oversaw development and integration of ideas in response to the analytics to continuously improve user retention rates, increasing profit 200%+.
 
 ---
-## On-Campus Involvement
+## Extracurricular & Leadership Experience
 <p style="text-align:left;">
     <b>Women in Computer Science</b>
     <span style="float:right; text-align: right;">
@@ -136,6 +136,19 @@ ___
 - Created on-demand tutorials on Python Numpy, Pandas, and Matplotlib as part of DevAda, which is WCS’s flagship project cycle.
 
 <p style="text-align:left;">
+    <b>Jefferson Middle School / Kenwood Elementary School Outreach</b>
+    <span style="float:right; text-align: right;">
+        <i>Champaign, IL</i>
+        <br /><i>August 2022 - PRESENT</i>
+    </span>
+    <br /> Lead
+</p>
+
+- Developing a curriculum to teach Python using Trinket to 40+ elementary and middle schoolers, placing an emphasis on applications and futures in computer science.
+  
+- Led a forum for university students to speak about their experiences and history in computer science and for elementary and middle school students to ask questions.
+
+<p style="text-align:left;">
     <b>Computer Science Ambassadors / Research Scholars</b>
     <span style="float:right; text-align: right;">
         <i>Urbana-Champaign, IL</i>
@@ -148,7 +161,7 @@ ___
 
 - Moderator for the Computer Science Town Hall, in which top faculty answer questions from the undergraduate student population.
 
-- Presented research at the annual Trick-or-Research Fair, hosted by the Department of Computer Science, to over 300 students and faculty in various engineering and science disciplines.
+- Presenting research at the annual Trick-or-Research Fair and Undergraduate Research Symposium to over 300 students and faculty in various engineering and science disciplines.
 
 <p style="text-align:left;">
     <b>Girls Who Code</b>
@@ -161,26 +174,9 @@ ___
 
 - Teaching 70+ girls to code in Python, Java, HTML, CSS, and JavaScript, teaching lessons from beginner to advanced levels.
 
-- Pairing with Slalom Consulting to introduce members to women in various sectors of computer science, ranging from DevOps to data analytics to information security.
+- Led marketing and recruitment efforts through creation of the Girls Who Code @ UIUC website and presentation at various youth-centered events and the ACM Open House.
 
-<p>
-<br /> <b>She's The First</b> &ensp; <i>Engagement Committee Member</i>
-<br /> <b>Association of Computing Machinery</b> &ensp; <i>SIGAIDA, SIGEcom, SIGNLL, SIGMusic Paid Member</i>
-<br /> <b>Open-Source</b> &ensp; <i>Member</i>
-</p>
-
----
-## Leadership & Community Service Experience
-<p style="text-align:left;">
-    <b>Jefferson Middle School / Kenwood Elementary School Outreach</b>
-    <span style="float:right; text-align: right;">
-        <i>Champaign, IL</i>
-        <br /><i>August 2022 - PRESENT</i>
-    </span>
-    <br /> Lead
-</p>
-
-- Developing and leading a thorough curriculum to teach Python using Trinket to 40+ economically disadvantaged sixth, seventh, and eighth graders, placing a special emphasis on applications and futures in computer science.
+- Paired with Slalom Consulting and Confluent to introduce members to women in various sectors of computer science, ranging from DevOps to data analytics to information security.
 
 <p style="text-align:left;">
     <b>Mundelein Tool Library</b>
@@ -211,6 +207,12 @@ ___
 - Organized and led youth computer science events ages 5-14 to introduce the next generation, specifically minorities, to coding.
   
 - Led teams during competitions in sectors such as cybersecurity and data science and hackathons, where teams were given difficult programming challenges to complete in a fixed time.
+
+<p>
+<br /> <b>She's The First</b> &ensp; <i>Engagement Committee Member</i>
+<br /> <b>Association of Computing Machinery</b> &ensp; <i>SIGAIDA, SIGEcom, SIGNLL, SIGMusic Paid Member</i>
+<br /> <b>Open-Source</b> &ensp; <i>Member</i>
+</p>
 
 ---
 ## Honors & Awards
