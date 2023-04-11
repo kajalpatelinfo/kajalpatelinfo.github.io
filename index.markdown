@@ -15,10 +15,9 @@ Hello! I'm Kajal, a Stamps Scholar at the University of Illinois at Urbana-Champ
 ---
 ## Current Work
 
-###[Research](kajalpatel.info/research/)
-- [An analysis of academic testing methods and intrinsic student motivation](kajalpatel.info/research/#An-analysis-of-academic-testing-methods-and-intrinsic-student=motivation)
-- [PeopleWeave](kajalpatel.info/research/#PeopleWeave)
+### [Research](kajalpatel.info/research/)
+- An analysis of academic testing methods and intrinsic student motivation
+- PeopleWeave
   
-###[Projects](kajalpatel.info/projects/)
-- Reflections | Projections 2023: Attendance Management System and Analytics
-- 
+### [Projects](kajalpatel.info/projects/)
+- <p>Reflections | Projections 2023: Attendance Management System and Analytics<p>
