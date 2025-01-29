@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Resume"
-permalink: /resume/
+# permalink: /resume/
 kramdown: 
     parse_block_html: true
 ---

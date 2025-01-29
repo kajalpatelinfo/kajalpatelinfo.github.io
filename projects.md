@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Projects"
-permalink: /projects/
+# permalink: /projects/
 kramdown: 
     parse_block_html: true
 ---
