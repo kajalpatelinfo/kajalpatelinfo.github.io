@@ -7,6 +7,7 @@
 <title>Welcome to Jekyll! | Kajal Patel</title>
 <meta name="generator" content="Jekyll v3.9.2" />
 <meta property="og:title" content="Welcome to Jekyll!" />
+<meta name="author" content="Kajal Patel" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated." />
 <meta property="og:description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated." />
@@ -18,7 +19,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Welcome to Jekyll!" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-08-03T20:21:14-05:00","datePublished":"2022-08-03T20:21:14-05:00","description":"You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.","headline":"Welcome to Jekyll!","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/update/2022/08/03/welcome-to-jekyll.html"},"url":"http://localhost:4000/jekyll/update/2022/08/03/welcome-to-jekyll.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Kajal Patel"},"dateModified":"2022-08-03T20:21:14-05:00","datePublished":"2022-08-03T20:21:14-05:00","description":"You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.","headline":"Welcome to Jekyll!","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/update/2022/08/03/welcome-to-jekyll.html"},"url":"http://localhost:4000/jekyll/update/2022/08/03/welcome-to-jekyll.html"}</script>
 <!-- End Jekyll SEO tag -->
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -27,29 +28,49 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <!-- <link rel="stylesheet" href="/_site/assets/css/style.css"> -->
-    <!-- <link rel="stylesheet" href="/assets/css/style.css?v=2b70551d17aa44ca82bfde08ca5eefbc671decc6"> -->
+    <!-- <link rel="stylesheet" href="/assets/css/style.css?v=135d768788c7164665e225f3b1875d22cff6e39b"> -->
     <link rel="stylesheet" href="/assets/css/style.css">
-    <!-- <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-
-<!-- Setup Google Analytics -->
-
-
-
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
-
-<!-- end custom head snippets -->
- -->
+    <!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/assts/css/style.css">
+  </head>
+  <body>
+    <header class="nav_header">
+      <h1 class="logo"><a href="/">Kajal Patel</a></h1>
+      <nav>
+        <ul class="nav_links">
+          <li><a style="color:#606c71" href="/research">Research</a></li>
+          <!-- <li><a style="color:#606c71" href="/projects">Projects</a></li> -->
+          <!-- <li><a style="color:#606c71" href="/resume">Resume</a></li> -->
+        </ul>
+      </nav>
+      <a class="cta" href="/contact"><button>Contact</button></a>
+      <!-- <a href="#" class="nav_btn">Contact Me</a> -->
+    </header>
+  </body>
+</html>
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
+      <div>
+        <img src="/profile_pic.jpg" style="border-radius:50%; height:225px; width:225px; float:center; margin-bottom:20px;" alt="Picture of me">
+      </div>
       <h1 class="project-name">Welcome to Jekyll!</h1>
+      <h2 class="project-tagline_2">Stamps Scholar at the University of Illinois at Urbana-Champaign</h2>
       <h2 class="project-tagline">Stamps Scholar at the University of Illinois at Urbana-Champaign</h2>
 
-      <a href="https://github.com/kajalpatelinfo/kajalpatelinfo.github.io" class="btn">View on GitHub</a>
-      <a href="https://linkedin.com/in/kajalpatelinfo" class="btn">LinkedIn Profile</a>
+      <a href="https://github.com/kajalpatelinfo/" class="btn logo-btn">
+        <img src="../assets/css/images/github_green.png" alt="GitHub" style="width: 50px; height: auto;">
+      </a>
+      <a href="https://linkedin.com/in/kajalpatelinfo" class="btn logo-btn">
+        <img src="../assets/css/images/linkedin_green.png" alt="LinkedIn" style="width: 50px; height: auto;">
+      </a>
+      <a href="mailto:kajal@kajalpatel.info" class="btn logo-btn">
+        <img src="../assets/css/images/mail_green.png" alt="Email" style="width: 50px; height: auto;">
+      </a>
 
       
     </header>
@@ -114,11 +135,17 @@
 
 
 
+      <!-- <a href="../assets/files/Resume.pdf" class="btn" download="kajal_patel_resume">Resume</a> -->
+      <div class="button-container">
+        <a href="../assets/files/Resume.pdf" class="btn" download="kajal_patel_resume">Resume</a>
+        <a href="/contact" class="btn">Contact</a>
+      </div>
+      
+      
       <footer class="site-footer">
         
-          <span class="site-footer-owner"><a href="https://github.com/kajalpatelinfo/kajalpatelinfo.github.io">kajalpatelinfo.github.io</a> is maintained by <a href="https://github.com/kajalpatelinfo">kajalpatelinfo</a>.</span>
+          <!-- <span class="site-footer-owner"><a href="https://github.com/kajalpatelinfo/kajalpatelinfo.github.io">kajalpatelinfo.github.io</a> is maintained by <a href="https://github.com/kajalpatelinfo">Kajal Patel</a>.</span> -->
         
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
       </footer>
     </main>
   </body>

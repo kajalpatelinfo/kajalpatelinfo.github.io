@@ -22,8 +22,7 @@
         <img src="/profile_pic.jpg" style="border-radius:50%; height:225px; width:225px; float:center; margin-bottom:20px;" alt="Picture of me">
       </div>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline_2">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      <h2 class="project-tagline">{{ page.description_2 | default: site.description | default: site.github.project_tagline }}</h2>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
 
       <a href="https://github.com/kajalpatelinfo/" class="btn logo-btn">
         <img src="../assets/css/images/github_green.png" alt="GitHub" style="width: 50px; height: auto;">
@@ -31,7 +30,7 @@
       <a href="https://linkedin.com/in/kajalpatelinfo" class="btn logo-btn">
         <img src="../assets/css/images/linkedin_green.png" alt="LinkedIn" style="width: 50px; height: auto;">
       </a>
-      <a href="mailto:kajal@kajalpatel.info" class="btn logo-btn">
+      <a href="mailto:kajal.patel@threekp.com" class="btn logo-btn">
         <img src="../assets/css/images/mail_green.png" alt="Email" style="width: 50px; height: auto;">
       </a>
 
@@ -44,16 +43,9 @@
     <main id="content" class="main-content" role="main">
       {{ content }}
 
-      <!-- <a href="../assets/files/Resume.pdf" class="btn" download="kajal_patel_resume">Resume</a> -->
-      <div class="button-container">
-        <a href="../assets/files/Resume.pdf" class="btn" download="kajal_patel_resume">Resume</a>
-        <a href="/contact" class="btn">Contact</a>
-      </div>
-      
-      
       <footer class="site-footer">
         {% if site.github.is_project_page %}
-          <!-- <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">Kajal Patel</a>.</span> -->
+          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
         {% endif %}
       </footer>
     </main>
