@@ -371,7 +371,8 @@ a:hover { text-decoration: underline; }
 }
 
 .nav_links li a:hover {
-  color: rgb(110,55,135);
+  /* color: rgb(110,55,135); */
+  color: rgb(33, 79, 194);
 }
 
 button {
@@ -391,12 +392,12 @@ button {
 button:hover {
   /* background-color: rgb(181, 163, 189); */
   /* background-color: rgba(77, 101, 28, 0.2); */
-  background-color: rgba(33, 79, 194,0.08);
+  background-color: rgba(33, 79, 194, 0.2);
   font-style: bold;
   /* color: rgb(77, 101, 28,0.8); */
-  color: rgba(33, 79, 194,0.08);
+  color: rgba(33, 79, 194,0.8);
   /* border-color: rgba(77, 101, 28, 0.3);  */
-  border-color: rgba(33, 79, 194,0.08);
+  border-color: rgba(33, 79, 194,0.3);
 }
 
 .logo-btn {
