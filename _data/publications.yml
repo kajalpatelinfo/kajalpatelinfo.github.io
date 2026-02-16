@@ -1,0 +1,45 @@
+# Publications
+
+# Published Conference Papers
+- title: "Frequent Testing vs. Second-chance Testing: An Exploration"
+  authors: "Geoffrey L. Herman, <strong>Kajal Patel</strong>, Chinedu Emeka, Craig Zilles, and Matthew West."
+  venue: "ACM Conference on International Computing Education Research (ICER)"
+  year: 2025
+  status: "published"
+  type: "conference"
+  links:
+    - text: "DOI"
+      url: "https://doi.org/10.1145/3702652.3744210"
+
+# Forthcoming Conference Papers
+- title: "Understanding the Impact of Test Anxiety on Study Behavior"
+  authors: "<strong>Kajal Patel</strong>, Mariana Silva, Geoffrey L. Herman, Jim Sosnowski, and Matthew West."
+  venue: "ASEE Annual Conference & Exposition (ASEE)"
+  year: 2026
+  status: "forthcoming"
+  type: "conference"
+
+- title: "Measuring the Effects of Structured Roles in Digital Collaborative Learning"
+  authors: "<strong>Kajal Patel</strong>, Mariana Silva, and Geoffrey L. Herman."
+  venue: "ASEE Annual Conference & Exposition (ASEE)"
+  year: 2026
+  status: "forthcoming"
+  type: "conference"
+
+# In Progress Journal Papers
+- title: "Second-Chance Testing Policy and Retake Behavior in Engineering Education"
+  authors: "<strong>Kajal Patel</strong>, Chinedu Emeka, Geoffrey L. Herman, and Lucas Flygare."
+  venue: "Journal of Engineering Education (In preparation)"
+  year: 2026
+  status: "in-progress"
+  type: "journal"
+
+- title: "Investigating Biases in Affective Inter-Model Communication of Large Generative Models"
+  authors: "Fethiye Irmak Doğan, Yuval Weiss, <strong>Kajal Patel</strong>, Jiaee Cheong, and Hatice Gunes."
+  venue: "Journal of Artificial Intelligence Research (Under review)"
+  year: 2026
+  status: "in-progress"
+  type: "journal"
+  links:
+    - text: "arXiv"
+      url: "https://arxiv.org/abs/2601.22093"

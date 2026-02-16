@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <title>{{ page.title | default: site.title }}</title>
+
+  <link rel="stylesheet" href="{{ '/assets/css/single-page.css' | relative_url }}">
+
+  {% seo %}
+</head>
+<body>
+  <nav class="site-nav" id="site-nav">
+    <div class="nav-container">
+      <a href="{{ '/' | relative_url }}" class="nav-name">Kajal Patel</a>
+      <div class="nav-links" id="nav-links">
+        <a href="{{ '/#about' | relative_url }}">About</a>
+        <a href="{{ '/#research-interests' | relative_url }}">Research Interests</a>
+        <a href="{{ '/#publications' | relative_url }}">Publications</a>
+        <a href="{{ '/#news' | relative_url }}">News</a>
+        <a href="{{ '/assets/files/CV.pdf' | relative_url }}" target="_blank">CV</a>
+        <a href="{{ '/#contact' | relative_url }}">Contact</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="{{ '/#about' | relative_url }}">About</a>
+      <a href="{{ '/#research-interests' | relative_url }}">Research Interests</a>
+      <a href="{{ '/#publications' | relative_url }}">Publications</a>
+      <a href="{{ '/#news' | relative_url }}">News</a>
+      <a href="{{ '/assets/files/CV.pdf' | relative_url }}" target="_blank">CV</a>
+      <a href="{{ '/#contact' | relative_url }}">Contact</a>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <section class="content-section">
+      <h2>{{ page.title }}</h2>
+
+      <ul class="news-list">
+        {% for item in site.data.news %}
+          <li>
+            <span class="news-date">{{ item.date | date: "%b %Y" }}</span>
+            <span class="news-text">{{ item.text }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
+  </footer>
+
+  <script src="{{ '/assets/js/smooth-scroll.js' | relative_url }}"></script>
+</body>
+</html>

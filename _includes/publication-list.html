@@ -1,0 +1,24 @@
+<div class="publication-list">
+  {% for pub in include.publications %}
+    <div class="publication-item">
+      <div class="pub-title">{{ pub.title }}</div>
+      <div class="pub-authors">{{ pub.authors }}</div>
+      <div class="pub-venue">
+        <em>{{ pub.venue }}</em>, {{ pub.year }}
+      </div>
+      {% if pub.links or pub.pdf or pub.doi %}
+        <div class="pub-links">
+          {% if pub.pdf %}
+            <a href="{{ pub.pdf }}" class="pub-link" target="_blank">[PDF]</a>
+          {% endif %}
+          {% if pub.doi %}
+            <a href="https://doi.org/{{ pub.doi }}" class="pub-link" target="_blank">[DOI]</a>
+          {% endif %}
+          {% for link in pub.links %}
+            <a href="{{ link.url }}" class="pub-link" target="_blank">[{{ link.text }}]</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <title>{{ page.title | default: site.title }}</title>
+
+  <link rel="stylesheet" href="{{ '/assets/css/single-page.css' | relative_url }}">
+
+  {% seo %}
+</head>
+<body>
+  <nav class="site-nav" id="site-nav">
+    <div class="nav-container">
+      <a href="#top" class="nav-name">Kajal Patel</a>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#research-interests">Research Interests</a>
+        <a href="#publications">Publications</a>
+        <a href="#news">News</a>
+        <a href="{{ '/assets/files/CV.pdf' | relative_url }}" target="_blank">CV</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#about">About</a>
+      <a href="#research-interests">Research Interests</a>
+      <a href="#publications">Publications</a>
+      <a href="#news">News</a>
+      <a href="{{ '/assets/files/CV.pdf' | relative_url }}" target="_blank">CV</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header id="top" class="hero-section">
+    <div class="hero-content">
+      <img src="{{ '/profile_pic.jpg' | relative_url }}" alt="Kajal Patel" class="profile-photo">
+      <h1>Kajal Patel</h1>
+      <p class="affiliation">Computer Science @ University of Illinois Urbana-Champaign</p>
+      <p class="title">Stamps Scholar</p>
+      <div class="social-links">
+        <a href="https://scholar.google.com/citations?hl=en&user=OEXpMLMAAAAJ" target="_blank" aria-label="Google Scholar">
+          <img src="{{ '/assets/css/images/google_scholar_blue.png' | relative_url }}" alt="Google Scholar">
+        </a>
+        <a href="https://github.com/{{ site.github_username }}" target="_blank" aria-label="GitHub">
+          <img src="{{ '/assets/css/images/github_blue.png' | relative_url }}" alt="GitHub">
+        </a>
+        <a href="https://linkedin.com/in/kajalpatelinfo" target="_blank" aria-label="LinkedIn">
+          <img src="{{ '/assets/css/images/linkedin_blue.png' | relative_url }}" alt="LinkedIn">
+        </a>
+        <a href="mailto:{{ site.email }}" aria-label="Email">
+          <img src="{{ '/assets/css/images/mail_blue.png' | relative_url }}" alt="Email">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section id="about" class="content-section">
+      <h2>About</h2>
+      <div class="about-content">
+        {{ content }}
+      </div>
+    </section>
+
+    <section id="research-interests" class="content-section">
+      <h2>Research Interests</h2>
+      <ul class="interests-list">
+        <li>Computer Vision</li>
+        <li>Computing Education</li>
+        <li>Affective Computing</li>
+        <li>Human-Computer Interaction</li>
+      </ul>
+    </section>
+
+    <section id="publications" class="content-section">
+      <h2>Publications</h2>
+
+      {% assign published = site.data.publications | where: "status", "published" %}
+      {% if published.size > 0 %}
+        <h3>Published</h3>
+        {% include publication-list.html publications=published %}
+      {% endif %}
+
+      {% assign forthcoming = site.data.publications | where: "status", "forthcoming" %}
+      {% if forthcoming.size > 0 %}
+        <h3>Forthcoming</h3>
+        {% include publication-list.html publications=forthcoming %}
+      {% endif %}
+
+      {% assign in_progress = site.data.publications | where: "status", "in-progress" %}
+      {% if in_progress.size > 0 %}
+        <h3>In Progress</h3>
+        {% include publication-list.html publications=in_progress %}
+      {% endif %}
+    </section>
+
+    <section id="news" class="content-section">
+      <h2>News</h2>
+      <ul class="news-list">
+        {% for item in site.data.news limit:6 %}
+          <li>
+            <span class="news-date">{{ item.date | date: "%b %Y" }}</span>
+            <span class="news-text">{{ item.text }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+      <p style="text-align: center; margin-top: 1.5rem;">
+        <a href="{{ '/news/' | relative_url }}" style="color: var(--primary-color); font-weight: 500; text-decoration: none; border-bottom: 1px solid var(--primary-light);">View all news →</a>
+      </p>
+    </section>
+
+    <section id="contact" class="content-section">
+      <h2>Contact</h2>
+      <p>I'm always open to discussing research collaborations, opportunities, and ideas. Feel free to reach out!</p>
+      <p><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <div class="contact-social">
+        <a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a> •
+        <a href="https://linkedin.com/in/kajalpatelinfo" target="_blank">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
+  </footer>
+
+  <script src="{{ '/assets/js/smooth-scroll.js' | relative_url }}"></script>
+</body>
+</html>
