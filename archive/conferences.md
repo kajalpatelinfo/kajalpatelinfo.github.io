@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Conferences"
-permalink: /conferences/
+# permalink: /conferences/
 kramdown: 
     parse_block_html: true
 ---

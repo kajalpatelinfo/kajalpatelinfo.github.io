@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+# permalink: /about/
 ---
 
 Hi! I'm Kajal, a Stamps Scholar at the University of Illinois at Urbana-Champaign, studying for my Bachelor's in Computer Science with minors in Statistics and Psychology. My interests lie in computational social science; specifically, how computer vision, machine learning, and data analytics can enable more equitable experiences in domains such as education and medicine.

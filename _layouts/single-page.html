@@ -94,10 +94,10 @@
         {% include publication-list.html publications=forthcoming %}
       {% endif %}
 
-      {% assign in_progress = site.data.publications | where: "status", "in-progress" %}
-      {% if in_progress.size > 0 %}
-        <h3>In Progress</h3>
-        {% include publication-list.html publications=in_progress %}
+      {% assign under_review = site.data.publications | where: "status", "under-review" %}
+      {% if under_review.size > 0 %}
+        <h3>Under Review</h3>
+        {% include publication-list.html publications=under_review %}
       {% endif %}
     </section>
 
@@ -119,8 +119,8 @@
     <section id="contact" class="content-section">
       <h2>Contact</h2>
       <p>I'm always open to discussing research collaborations, opportunities, and ideas. Feel free to reach out!</p>
-      <p><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-      <div class="contact-social">
+      <div class="contact-social" style="text-align: center;">
+        <a href="mailto:{{ site.email }}">Email</a> •
         <a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a> •
         <a href="https://linkedin.com/in/kajalpatelinfo" target="_blank">LinkedIn</a>
       </div>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Contact Me"
-permalink: /contact/
+# permalink: /contact/
 kramdown: 
     parse_block_html: true
 ---

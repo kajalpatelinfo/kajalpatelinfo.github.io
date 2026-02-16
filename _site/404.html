@@ -1,114 +1,274 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 - Page Not Found | Kajal Patel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: rgba(33, 79, 194, 1);
+      --primary-light: rgba(33, 79, 194, 0.08);
+      --primary-hover: rgba(33, 79, 194, 0.85);
+      --text-color: #606c71;
+      --heading-color: rgb(33, 79, 194);
+      --nav-height: 70px;
+    }
 
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Kajal Patel | Stamps Scholar at the University of Illinois at Urbana-Champaign</title>
-<meta name="generator" content="Jekyll v3.9.2" />
-<meta property="og:title" content="Kajal Patel" />
-<meta name="author" content="Kajal Patel" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Stamps Scholar at the University of Illinois at Urbana-Champaign" />
-<meta property="og:description" content="Stamps Scholar at the University of Illinois at Urbana-Champaign" />
-<link rel="canonical" href="http://localhost:4000/404.html" />
-<meta property="og:url" content="http://localhost:4000/404.html" />
-<meta property="og:site_name" content="Kajal Patel" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Kajal Patel" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Kajal Patel"},"description":"Stamps Scholar at the University of Illinois at Urbana-Champaign","headline":"Kajal Patel","url":"http://localhost:4000/404.html"}</script>
-<!-- End Jekyll SEO tag -->
+    * {
+      box-sizing: border-box;
+    }
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <!-- <link rel="stylesheet" href="/_site/assets/css/style.css"> -->
-    <!-- <link rel="stylesheet" href="/assets/css/style.css?v=f5a987354c67a7b2aad9fc6e117b9a04c3ffb311"> -->
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="/assts/css/style.css">
-  </head>
-  <body>
-    <header class="nav_header">
-      <h1 class="logo"><a href="/">Kajal Patel</a></h1>
-      <nav>
-        <ul class="nav_links">
-          <li><a style="color:#606c71" href="/research">Research</a></li>
-          <!-- <li><a style="color:#606c71" href="/projects">Projects</a></li> -->
-          <!-- <li><a style="color:#606c71" href="/resume">Resume</a></li> -->
-        </ul>
-      </nav>
-      <a class="cta" href="/contact"><button>Contact</button></a>
-      <!-- <a href="#" class="nav_btn">Contact Me</a> -->
-    </header>
-  </body>
-</html>
-  </head>
-  <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
+    html {
+      scroll-behavior: smooth;
+    }
 
-    <header class="page-header" role="banner">
-      <div>
-        <img src="/profile_pic.jpg" style="border-radius:50%; height:225px; width:225px; float:center; margin-bottom:20px;" alt="Picture of me">
+    body {
+      font-family: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+      color: var(--text-color);
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navigation */
+    .site-nav {
+      position: sticky;
+      top: 0;
+      background: rgba(255, 255, 255, 0.98);
+      border-bottom: 1px solid #e9ebec;
+      z-index: 1000;
+      padding: 1rem 0;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-name {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--heading-color);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .nav-name:hover {
+      color: var(--primary-hover);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+    }
+
+    .nav-links a {
+      color: var(--text-color);
+      text-decoration: none;
+      transition: color 0.2s;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+
+    .nav-links a:hover {
+      color: var(--primary-color);
+    }
+
+    /* Hamburger Menu */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 4px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0.5rem;
+    }
+
+    .hamburger span {
+      width: 25px;
+      height: 3px;
+      background: var(--primary-color);
+      transition: 0.3s;
+      border-radius: 2px;
+    }
+
+    .mobile-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: white;
+      border-top: 1px solid #e9ebec;
+      flex-direction: column;
+      padding: 0;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .mobile-menu a {
+      padding: 1rem 2rem;
+      color: var(--text-color);
+      text-decoration: none;
+      border-bottom: 1px solid #f8f9fa;
+      transition: background-color 0.2s;
+    }
+
+    .mobile-menu a:hover {
+      background-color: var(--primary-light);
+      color: var(--primary-color);
+    }
+
+    .mobile-menu.active {
+      display: flex;
+    }
+
+    /* Error Container */
+    .error-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: calc(100vh - 70px);
+      padding: 2rem;
+    }
+
+    .error-container {
+      text-align: center;
+      max-width: 600px;
+    }
+
+    .error-code {
+      font-size: 8rem;
+      font-weight: 700;
+      color: rgba(33, 79, 194, 0.2);
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: var(--heading-color);
+      margin-bottom: 1rem;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+      color: var(--text-color);
+    }
+
+    .home-link {
+      display: inline-block;
+      padding: 0.75rem 2rem;
+      background: var(--primary-light);
+      color: var(--primary-color);
+      text-decoration: none;
+      border-radius: 0.4rem;
+      font-weight: 600;
+      transition: all 0.2s;
+      font-size: 1rem;
+    }
+
+    .home-link:hover {
+      background: var(--primary-color);
+      color: white;
+      transform: translateY(-2px);
+      box-shadow: 0 2px 8px rgba(33, 79, 194, 0.3);
+    }
+
+    @media (max-width: 768px) {
+      .nav-container {
+        padding: 0 1rem;
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      .hamburger {
+        display: flex;
+      }
+
+      .error-code {
+        font-size: 6rem;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="site-nav" id="site-nav">
+    <div class="nav-container">
+      <a href="/" class="nav-name">Kajal Patel</a>
+      <div class="nav-links" id="nav-links">
+        <a href="/#about">About</a>
+        <a href="/#research-interests">Research Interests</a>
+        <a href="/#publications">Publications</a>
+        <a href="/#news">News</a>
+        <a href="/assets/files/CV.pdf" target="_blank">CV</a>
+        <a href="/#contact">Contact</a>
       </div>
-      <h1 class="project-name">Kajal Patel</h1>
-      <h2 class="project-tagline_2">Stamps Scholar at the University of Illinois at Urbana-Champaign</h2>
-      <h2 class="project-tagline">Stamps Scholar at the University of Illinois at Urbana-Champaign</h2>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="/#about">About</a>
+      <a href="/#research-interests">Research Interests</a>
+      <a href="/#publications">Publications</a>
+      <a href="/#news">News</a>
+      <a href="/assets/files/CV.pdf" target="_blank">CV</a>
+      <a href="/#contact">Contact</a>
+    </div>
+  </nav>
 
-      <a href="https://github.com/kajalpatelinfo/" class="btn logo-btn">
-        <img src="../assets/css/images/github_blue.png" alt="GitHub" style="width: 50px; height: auto;">
-      </a>
-      <a href="https://linkedin.com/in/kajalpatelinfo" class="btn logo-btn">
-        <img src="../assets/css/images/linkedin_blue.png" alt="LinkedIn" style="width: 50px; height: auto;">
-      </a>
-      <a href="mailto:kajal@kajalpatel.info" class="btn logo-btn">
-        <img src="../assets/css/images/mail_blue.png" alt="Email" style="width: 50px; height: auto;">
-      </a>
+  <div class="error-wrapper">
+    <div class="error-container">
+      <div class="error-code">404</div>
+      <h1>Page Not Found</h1>
+      <p>Sorry, the page you're looking for doesn't exist or has been moved.</p>
+      <a href="/" class="home-link">Return Home</a>
+    </div>
+  </div>
 
-      
-    </header>
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
 
-    <main id="content" class="main-content" role="main">
-      <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+    hamburger.addEventListener('click', () => {
+      mobileMenu.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    });
 
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
-
-
-      <!-- <a href="../assets/files/Resume.pdf" class="btn" download="kajal_patel_resume">Resume</a> -->
-      <div class="button-container">
-        <a href="../assets/files/CV.pdf" class="btn" download="kajal_patel_cv">CV</a>
-        <a href="/contact" class="btn">Contact</a>
-      </div>
-      
-      
-      <footer class="site-footer">
-        
-          <!-- <span class="site-footer-owner"><a href="https://github.com/kajalpatelinfo/kajalpatelinfo.github.io">kajalpatelinfo.github.io</a> is maintained by <a href="https://github.com/kajalpatelinfo">Kajal Patel</a>.</span> -->
-        
-      </footer>
-    </main>
-  </body>
+    // Close mobile menu when clicking on a link
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.toggle('active');
+        hamburger.classList.toggle('active');
+      });
+    });
+  </script>
+</body>
 </html>

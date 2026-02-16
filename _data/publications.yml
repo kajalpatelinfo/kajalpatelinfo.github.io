@@ -26,19 +26,19 @@
   status: "forthcoming"
   type: "conference"
 
-# In Progress Journal Papers
-- title: "Second-Chance Testing Policy and Retake Behavior in Engineering Education"
-  authors: "<strong>Kajal Patel</strong>, Chinedu Emeka, Geoffrey L. Herman, and Lucas Flygare."
-  venue: "Journal of Engineering Education (In preparation)"
-  year: 2026
-  status: "in-progress"
-  type: "journal"
+# # In Progress Journal Papers
+# - title: "Second-Chance Testing Policy and Retake Behavior in Engineering Education"
+#   authors: "<strong>Kajal Patel</strong>, Chinedu Emeka, Geoffrey L. Herman, and Lucas Flygare."
+#   venue: "Journal of Engineering Education (In preparation)"
+#   year: 2026
+#   status: "in-progress"
+#   type: "journal"
 
 - title: "Investigating Biases in Affective Inter-Model Communication of Large Generative Models"
   authors: "Fethiye Irmak Doğan, Yuval Weiss, <strong>Kajal Patel</strong>, Jiaee Cheong, and Hatice Gunes."
-  venue: "Journal of Artificial Intelligence Research (Under review)"
+  venue: "Journal of Artificial Intelligence Research"
   year: 2026
-  status: "in-progress"
+  status: "under-review"
   type: "journal"
   links:
     - text: "arXiv"
